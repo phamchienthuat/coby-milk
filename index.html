@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coby Milk</title>
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png"/>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/fontawesome-free-6.2.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="./asset/animate/animate.min.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container ">
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-3">
+                        <h2 class="logo">COBY MILK</h2>
+                    </div>
+                    <div class="col-5 col-md-7 text-center text-md-left">
+                        <h3 class="slogan">Sống Khỏe mỗi ngày</h3>
+                    </div>
+                    <div class="col-4 col-md-2 text-right text-md-center">
+                        <a href="https://zalo.me/0981728687" target="_blank" class="button-advise"> Tư vấn </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-center d-flex justify-content-center">
+                        <!-- <img src="./images/kol.png" alt="" class="image-left animate__animated animate__bounceInLeft"> -->
+                        <img src="./images/girl.png" alt="" class="image-left animate__animated animate__bounceInLeft">
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <!-- <div class="right_1 animate__animated animate__bounceInDown">
+                            <img src="./images/coby.png" alt="image">
+                        </div> -->
+                        <div class="right_2 animate__animated animate__bounceInRight">
+                            <img src="./images/skmn.png" alt="image">
+                        </div>
+                        <div class="right_3 animate__animated animate__bounceInRight">
+                            <img src="./images/banner-milk.png" alt="image">
+                        </div>
+                        <div class="price-header animate__animated animate__bounceInUp">
+                            <button>Giá chỉ từ 195.000đ</button>
+                            <p>(Tiết kiệm 214.000vnđ so với giá niêm yết)</p>
+                        </div>
+                        <div class="header__button-order animation-pulse">
+                            <button type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="sec_box-icon">
+            <div class="container">
+                <div class="row shadow-1">
+                    <div class="col-12 col-sm-3">
+                        <div class="box-icon">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32"
+                                    xml:space="preserve" preserveAspectRatio="none" width="100%" height="100%" class=""
+                                    fill="rgba(223, 73, 78, 1.0)">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M21.033,9.658v13.333h2.334c0-0.008-0.003-0.016-0.003-0.025c0,1.749,1.418,3.167,3.167,3.167s3.167-1.418,3.167-3.167    c0,0.008-0.002,0.016-0.003,0.025h2.294v-6.527l-4.252-6.807H21.033z M23.744,14.715v-2.376h2.607l1.293,2.376H23.744z">
+                                            </path>
+                                            <path
+                                                d="M0.01,22.992h1.701c0.014,1.737,1.424,3.142,3.164,3.142s3.151-1.405,3.164-3.142h3.478    c0.014,1.737,1.424,3.142,3.164,3.142s3.151-1.405,3.164-3.142h1.688V5.867H0.01V22.992z M2.832,13.57h7.358v-2.997l6.49,3.747    l-6.49,3.747V15.07H2.832V13.57z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="box-text">
+                                <h3>MIỄN PHÍ SHIP</h3>
+                                <p>Với hóa đơn từ 600k</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="box-icon">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                                    enable-background="new 0 0 100 100" xml:space="preserve" preserveAspectRatio="none"
+                                    width="100%" height="100%" class="" fill="rgba(223, 73, 78, 1.0)">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M316.127,45.741h-91.771c-1.878,0-3.399,1.523-3.399,3.401v59.702c0,1.878,1.521,3.4,3.399,3.4h91.771    c1.878,0,3.402-1.522,3.402-3.4V49.142C319.529,47.264,318.005,45.741,316.127,45.741z M313.86,106.577h-87.239V51.409h87.239    V106.577z">
+                                            </path>
+                                            <polygon
+                                                points="286.277,133.027 256.804,133.027 262.472,112.244 280.608,112.244   ">
+                                            </polygon>
+                                        </g>
+                                        <rect x="252.953" y="133.027" width="36.964" height="1.082"></rect>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M316.127,45.741h-91.771c-1.878,0-3.399,1.523-3.399,3.401v59.702c0,1.878,1.521,3.4,3.399,3.4h91.771    c1.878,0,3.402-1.522,3.402-3.4V49.142C319.529,47.264,318.005,45.741,316.127,45.741z M313.86,106.577h-87.239V51.409h87.239    V106.577z">
+                                            </path>
+                                            <polygon
+                                                points="286.277,133.027 256.804,133.027 262.472,112.244 280.608,112.244   ">
+                                            </polygon>
+                                        </g>
+                                        <rect x="252.953" y="133.027" width="36.964" height="1.082"></rect>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M316.127,45.741h-91.771c-1.878,0-3.399,1.523-3.399,3.401v59.702c0,1.878,1.521,3.4,3.399,3.4h91.771    c1.878,0,3.402-1.522,3.402-3.4V49.142C319.529,47.264,318.005,45.741,316.127,45.741z M313.86,106.577h-87.239V51.409h87.239    V106.577z">
+                                            </path>
+                                            <polygon
+                                                points="286.277,133.027 256.804,133.027 262.472,112.244 280.608,112.244   ">
+                                            </polygon>
+                                        </g>
+                                        <rect x="252.953" y="133.027" width="36.964" height="1.082"></rect>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M316.127,45.741h-91.771c-1.878,0-3.399,1.523-3.399,3.401v59.702c0,1.878,1.521,3.4,3.399,3.4h91.771    c1.878,0,3.402-1.522,3.402-3.4V49.142C319.529,47.264,318.005,45.741,316.127,45.741z M313.86,106.577h-87.239V51.409h87.239    V106.577z">
+                                            </path>
+                                            <polygon
+                                                points="286.277,133.027 256.804,133.027 262.472,112.244 280.608,112.244   ">
+                                            </polygon>
+                                        </g>
+                                        <rect x="252.953" y="133.027" width="36.964" height="1.082"></rect>
+                                    </g>
+                                    <g>
+                                        <path
+                                            d="M36.66,29.53l-11.542-9.327c0,0-2.667-8.213,5.771-5.771c0,0,5.105,1.777,8.213-2.442c0,0,3.55-12.878,13.988-3.552   c0,0,3.332,10.822,8.218,8.851c0,0,5.105-9.294,12.21-4.188c0,0,4.664,5.993-9.769,16.43H36.66z">
+                                        </path>
+                                        <path
+                                            d="M79.851,60.836c0,0-1.337-7.891-17.538-21.093H35.892c0,0-16.656,15.54-19.316,23.979c0,0-3.111,18.872,20.646,24.202   c0,0,15.986,3.773,30.64-2.667C67.861,85.257,87.181,80.815,79.851,60.836z M50.669,74.243v4.342h-2.634v-4.177   c-2.423-0.043-4.89-0.796-6.353-1.84l1.004-2.799c1.462,0.961,3.635,1.797,5.973,1.797c2.969,0,4.975-1.718,4.975-4.098   c0-2.296-1.629-3.721-4.722-4.97c-4.264-1.67-6.898-3.638-6.898-7.275c0-3.468,2.467-6.101,6.27-6.728v-4.179h2.634v4.055   c2.466,0.083,4.177,0.751,5.431,1.462l-1.043,2.758c-0.879-0.503-2.59-1.463-5.269-1.463c-3.214,0-4.426,1.924-4.426,3.638   c0,2.13,1.544,3.215,5.181,4.762c4.303,1.759,6.479,3.888,6.479,7.605C57.271,70.479,54.972,73.569,50.669,74.243z">
+                                        </path>
+                                        <rect x="33.141" y="31.997" width="33.401" height="5.171"></rect>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="box-text">
+                                <h3>HOÀN TIỀN GẤP 10</h3>
+                                <p>Nếu phát hiện hàng giả</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="box-icon">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(223, 73, 78, 1.0)">
+                                    <path
+                                        d="M15,12H17A5,5 0 0,0 12,7V9A3,3 0 0,1 15,12M19,12H21C21,7 16.97,3 12,3V5C15.86,5 19,8.13 19,12M20,15.5C18.75,15.5 17.55,15.3 16.43,14.93C16.08,14.82 15.69,14.9 15.41,15.18L13.21,17.38C10.38,15.94 8.06,13.62 6.62,10.79L8.82,8.59C9.1,8.31 9.18,7.92 9.07,7.57C8.7,6.45 8.5,5.25 8.5,4A1,1 0 0,0 7.5,3H4A1,1 0 0,0 3,4A17,17 0 0,0 20,21A1,1 0 0,0 21,20V16.5A1,1 0 0,0 20,15.5Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="box-text">
+                                <h3>TƯ VẤN 24/7</h3>
+                                <p>Hỗ trợ suốt cả tuần</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="box-icon">
+                            <div class="icon">
+                                <svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+                                    xmlns:cc="http://creativecommons.org/ns#"
+                                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                    xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px"
+                                    y="0px" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="100%"
+                                    class="" fill="rgba(223, 73, 78, 1.0)">
+                                    <g transform="translate(0,-952.36218)">
+                                        <path
+                                            style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;"
+                                            d="m 39.343752,964.25286 -10.6875,5.65625 31.71875,17.21875 10.374996,-6 -5.6875,-3.03125 a 1.0001,1.0001 0 0 1 -0.0937,-0.0312 l -0.0625,-0.0312 -25.562496,-13.78125 z m -12.78125,6.78125 -7.1875,3.8125 31.5625,17.75 7.4375,-4.28125 -31.8125,-17.28125 z m -9.28125,4.9375 -9.8125,5.1875 31.625,18.3125 9.875,-5.71875 -31.59375,-17.75 a 1.0001,1.0001 0 0 1 -0.03125,0 l -0.0625,-0.0312 z m -10.875,6.90625 0,36.65614 31.6875,18.3438 0,-36.6562 -31.6875,-18.34374 z m 65.374996,0 -10.468746,6.0625 -0.03125,7.71875 a 1.0001,1.0001 0 0 1 -0.5,0.84375 l -9.53125,5.59364 a 1.0001,1.0001 0 0 1 -1.53125,-0.8437 l -0.1875,-6.53119 -9.4375,5.46869 0,36.6875 23.156246,-13.4063 0,-26.5624 a 1.0001,1.0001 0 0 1 0.0937,-0.4375 1.0001,1.0001 0 0 1 0.0625,-0.0937 1.0001,1.0001 0 0 1 0.0625,-0.0625 1.0001,1.0001 0 0 1 0.0625,-0.0937 1.0001,1.0001 0 0 1 0.0625,-0.0625 1.0001,1.0001 0 0 1 0.1875,-0.125 1.0001,1.0001 0 0 1 0.46875,-0.125 l 7.53125,0 0,-14.03125 z m -12.468746,7.21875 -7.78125,4.5 0.15625,5.93749 7.59375,-4.46874 0.03125,-5.96875 z m 5.937496,8.8125 0,26.15619 a 1.0001,1.0001 0 0 1 0,0.125 l 0,15.2812 28.34375,0 0,-10.5937 a 1.0001,1.0001 0 0 1 0,-0.094 l 0,-0.062 0,-30.81239 -20.8125,0 -7.53125,0 z m 4.5,5.43739 a 1.001098,1.001098 0 0 1 0.0937,0 1.0001,1.0001 0 0 1 0.0937,0 l 12.8125,0 a 1.0001,1.0001 0 1 1 0,2 l -12.8125,0 a 1.0043849,1.0043849 0 0 1 -0.1875,-2 z m -0.0937,6.6563 a 1.0043849,1.0043849 0 0 1 0.0937,0 1.0001,1.0001 0 0 1 0.1875,0 l 17.78125,0 a 1.0001,1.0001 0 1 1 0,2 l -17.78125,0 a 1.0098393,1.0098393 0 0 1 -0.28125,-2 z m 0,6.625 a 1.0043849,1.0043849 0 0 1 0.0937,0 1.0001,1.0001 0 0 1 0.1875,0 l 17.78125,0 a 1.0001,1.0001 0 1 1 0,2 l -17.78125,0 a 1.0098393,1.0098393 0 0 1 -0.28125,-2 z m 22.46875,6.75 a 1.0001,1.0001 0 0 1 0.8125,1.75 l -7.59375,6.6875 a 1.0001,1.0001 0 0 1 -1.4375,-0.125 l -2.25,-2.8438 a 1.0004882,1.0004882 0 1 1 1.5625,-1.25 l 1.59375,2.0313 6.8125,-6 a 1.0001,1.0001 0 0 1 0.5,-0.25 z m -13.28125,0.625 a 1.0001,1.0001 0 0 1 0.0937,0 1.0001,1.0001 0 0 1 0.0937,0 l 7.0625,0 a 1.0001,1.0001 0 1 1 0,2 l -6.0625,0 0,7.5625 8.46875,0 0,-2 a 1.0001,1.0001 0 1 1 2,0 l 0,3 a 1.0001,1.0001 0 0 1 -1,1 l -10.46875,0 a 1.0001,1.0001 0 0 1 -1,-1 l 0,-9.5625 a 1.0001,1.0001 0 0 1 0.8125,-1 z"
+                                            fill-opacity="1" stroke="none" marker="none" visibility="visible"
+                                            display="inline" overflow="visible"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="box-text">
+                                <h3>KIỂM TRA HÀNG</h3>
+                                <p>Nhận hàng thanh toán</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bạn đang gặp vấn đề -->
+        <section id="sec_problem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-sec text-center">
+                            <span>
+                                GIA ĐÌNH BẠN ĐANG GẶP NHỮNG VẤN ĐỀ NÀY
+                            </span>
+                            <p class="line"></p>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="image-box">
+                            <img src="./images/kol.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="box-list">
+                            <div class="items">
+                                <div class="number">01</div>
+                                <div class="text">
+                                    <p>Bạn đau dạ dày, tá tràng </p>
+                                    <p>Thường xuyên bị ợ chua, đầy hơi?</p>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="number">02</div>
+                                <div class="text">
+                                    <p>Bạn ngủ chập chờn không sâu giấc</p>
+                                    <p>Mệt mỏi, biếng ăn?</p>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="number">03</div>
+                                <div class="text">
+                                    <p>Bạn muốn bổ sung lượng collagen đang thiếu hụt đi mỗi ngày?</p>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="number">04</div>
+                                <div class="text">
+                                    <p>Bạn cần kiểm soát cân nặng,</p>
+                                    <p>Giảm lượng mỡ thừa?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sản phẩm  -->
+        <section id="sec_product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-sec text-center">
+                            <span>
+                                Sản phẩm Coby Milk
+                            </span>
+                            <p class="line"></p>
+                        </h2>
+                    </div>
+                </div>
+                <!-- SỮA HẠT DINH DƯỠNG -->
+                <div class="row product-items">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="product-images">
+                            <img src="./images/milk.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-text">
+                            <h3 class="product-title color-brown">COBY MILK</h3>
+                            <h4 class="product-type color-brown">SỮA HẠT DINH DƯỠNG KHOẺ MỖI NGÀY</h4>
+                            <div class="box-price d-flex align-items-center">
+                                <span>Giá chỉ:</span>
+                                <span class="price">195.000 Đ</span>
+                            </div>
+                            <i class="my-3">(Dùng cho mọi đối tượng từ 3 tuổi trở lên, kể cả mẹ bầu sau 3 tháng & phụ nữ
+                                đang cho con bú.)</i>
+                            <ul class="list my-3">
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Thay thế bữa ăn phụ, bổ sung sức khỏe, cung cấp năng lượng</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Tăng cường vitamin và khoáng chất</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giàu chất xơ, tăng cường chuyển hóa</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giảm hấp thụ chất béo, loại bỏ mỡ thừa và kiểm soát cân
+                                        nặng</span>
+                                </li>
+                            </ul>
+                            <div class="line"></div>
+                            <div class="box-order">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none" viewBox="0 0 24 24" class="animation-shake"
+                                    fill="rgba(58, 145, 207, 1.0)">
+                                    <path
+                                        d="M21,9A1,1 0 0,1 22,10A1,1 0 0,1 21,11H16.53L16.4,12.21L14.2,17.15C14,17.65 13.47,18 12.86,18H8.5C7.7,18 7,17.27 7,16.5V10C7,9.61 7.16,9.26 7.43,9L11.63,4.1L12.4,4.84C12.6,5.03 12.72,5.29 12.72,5.58L12.69,5.8L11,9H21M2,18V10H5V18H2Z">
+                                    </path>
+                                </svg>
+                                <button class="animation-pulse"  type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- NGƯỜI TIỂU ĐƯỜNG -->
+                <div class="row product-items">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="product-images">
+                            <img src="./images/diecerna.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-text">
+                            <h3 class="product-title color-pink">COBY MILK DIECERNA</h3>
+                            <h4 class="product-type color-pink">SỮA DÀNH CHO NGƯỜI TIỂU ĐƯỜNG</h4>
+                            <div class="box-price d-flex align-items-center">
+                                <span>Giá chỉ:</span>
+                                <span class="price">290.000 Đ</span>
+                            </div>
+                            <i class="my-3">(Dùng cho người bệnh tiểu đường, tiền tiểu đường và tiểu đường thai kỳ)</i>
+                            <ul class="list my-3">
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1"> Bổ sung dinh dưỡng cho người ăn kiêng, người có lượng đường huyết cao, người bị tiểu đường (dùng thay thế bữa ăn chính, các trường hợp cần bổ sung chế độ ăn hoặc theo hướng dẫn của bác sĩ)</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giúp hồi phục sức khỏe, tăng cường miễn dịch, giúp giảm tình
+                                        trạng mệt mỏi</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giúp hồi phục sức khỏe, tăng cường miễn dịch, giúp giảm tình
+                                        trạng mệt mỏi</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giảm cholesterol trong máu</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giảm lượng mỡ thừa trong cơ thể</span>
+                                </li>
+                            </ul>
+                            <div class="line"></div>
+                            <div class="box-order">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none" viewBox="0 0 24 24" class="animation-shake"
+                                    fill="rgba(58, 145, 207, 1.0)">
+                                    <path
+                                        d="M21,9A1,1 0 0,1 22,10A1,1 0 0,1 21,11H16.53L16.4,12.21L14.2,17.15C14,17.65 13.47,18 12.86,18H8.5C7.7,18 7,17.27 7,16.5V10C7,9.61 7.16,9.26 7.43,9L11.63,4.1L12.4,4.84C12.6,5.03 12.72,5.29 12.72,5.58L12.69,5.8L11,9H21M2,18V10H5V18H2Z">
+                                    </path>
+                                </svg>
+                                <button class="animation-pulse" type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SỮA NGHỆ NANO -->
+                <div class="row product-items">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="product-images">
+                            <img src="./images/curcumin.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-text">
+                            <h3 class="product-title color-yellow">COBY MILK CURCUMIN</h3>
+                            <h4 class="product-type color-yellow">SỮA NGHỆ NANO</h4>
+                            <div class="box-price d-flex align-items-center">
+                                <span>Giá chỉ:</span>
+                                <span class="price">285.000 Đ</span>
+                            </div>
+                            <i class="my-3">(Dùng cho trẻ em từ 6 tuổi trở lên, KHÔNG SỬ DỤNG CHO PHỤ NỮ CÓ THAI & NGƯỜI
+                                TIỂU ĐƯỜNG)</i>
+                            <ul class="list my-3">
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Thành phần chính là Nano Cucurmin chiết xuất từ nghệ giúp cân
+                                        bằng lượng axit dạ dày, cải thiện tình trạng trào ngược dạ dày, ợ chua, đầy
+                                        hơi</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Công nghệ Nano đưa Curcumin tới kích thước vi lượng siêu nhỏ giúp
+                                        tăng độ tan trong nước của Curcumin lên 80%, dễ dàng thẩm thấu vào máu, giúp cơ
+                                        thể hấp thụ dinh dưỡng tốt hơn 95% so với bột nghệ thông thường</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Bổ sung biotin hỗ trợ làm đẹp da, tóc, móng chắc khoẻ</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Đặc biệt, sản phẩm đã loại bỏ hoàn toàn tạp chất có hại cho sức
+                                        khỏe (tinh bột, tinh dầu, nhựa, acid) trong nghệ nên không có mùi hăng nồng,
+                                        không gây nóng khi sử dụng lâu dài</span>
+                                </li>
+                            </ul>
+                            <div class="line"></div>
+                            <div class="box-order">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none" viewBox="0 0 24 24" class="animation-shake"
+                                    fill="rgba(58, 145, 207, 1.0)">
+                                    <path
+                                        d="M21,9A1,1 0 0,1 22,10A1,1 0 0,1 21,11H16.53L16.4,12.21L14.2,17.15C14,17.65 13.47,18 12.86,18H8.5C7.7,18 7,17.27 7,16.5V10C7,9.61 7.16,9.26 7.43,9L11.63,4.1L12.4,4.84C12.6,5.03 12.72,5.29 12.72,5.58L12.69,5.8L11,9H21M2,18V10H5V18H2Z">
+                                    </path>
+                                </svg>
+                                <button class="animation-pulse" type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SỮA ĐÔNG TRÙNG HẠ THẢO -->
+                <div class="row product-items">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="product-images">
+                            <img src="./images/dtht.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-text">
+                            <h3 class="product-title color-red">COBY MILK</h3>
+                            <h4 class="product-type color-red">SỮA ĐÔNG TRÙNG HẠ THẢO </h4>
+                            <div class="box-price d-flex align-items-center">
+                                <span>Giá chỉ:</span>
+                                <span class="price">265.000 Đ</span>
+                            </div>
+                            <i class="my-3">(Dùng cho người trưởng thành từ 12 tuổi trở lên)</i>
+                            <ul class="list my-3">
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Bổ sung cho cơ thể một loạt các thành phần dinh dưỡng quan trọng,
+                                        các axit amin thiết yếu, các loại omega 3-6-9,… giúp bạn tăng sức đề kháng, ăn
+                                        ngon ngủ sâu hơn</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1"> Bổ sung canxi, vitamin K2 giúp giảm thiểu tình trạng lão hóa,
+                                        loãng xương, tạo hệ xương chắc khỏe</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Giảm cholesterol trong máu, phòng chống sự hình thành máu đông,
+                                        ổn định nhịp tim từ đó hỗ trợ phòng ngừa các bệnh về tim mạch.</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Đặc biệt, Đông trùng hạ thảo còn có tác dụng tăng cường khả năng
+                                        sinh lý, đào thải độc tố trong cơ thể.</span>
+                                </li>
+                            </ul>
+                            <div class="line"></div>
+                            <div class="box-order">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none" viewBox="0 0 24 24" class="animation-shake"
+                                    fill="rgba(58, 145, 207, 1.0)">
+                                    <path
+                                        d="M21,9A1,1 0 0,1 22,10A1,1 0 0,1 21,11H16.53L16.4,12.21L14.2,17.15C14,17.65 13.47,18 12.86,18H8.5C7.7,18 7,17.27 7,16.5V10C7,9.61 7.16,9.26 7.43,9L11.63,4.1L12.4,4.84C12.6,5.03 12.72,5.29 12.72,5.58L12.69,5.8L11,9H21M2,18V10H5V18H2Z">
+                                    </path>
+                                </svg>
+                                <button class="animation-pulse" type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SỮA ĐÔNG TRÙNG HẠ THẢO -->
+                <div class="row product-items">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="product-images">
+                            <img src="./images/collagen.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-text">
+                            <h3 class="product-title color-pink">SỮA COBY COLLAGEN</h3>
+                            <h4 class="product-type color-pink">DA ĐẸP DÁNG KHOẺ</h4>
+                            <div class="box-price d-flex align-items-center">
+                                <span>Giá chỉ:</span>
+                                <span class="price">265.000 Đ</span>
+                            </div>
+                            <i class="my-3">(Dùng cho người cần bổ sung collagen làm đẹp da, phụ nữ từ 18 tuổi trở lên
+                                kể cả phụ nữ đang cho con bú)</i>
+                            <ul class="list my-3">
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Bổ sung lượng COLLAGEN thiếu hụt mỗi ngày cho chị em phụ nữ giúp
+                                        da trắng sáng, làm đẹp da, chống lão hóa</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1"> Bổ sung SỮA NON nâng cao sức đề kháng và hệ miễn dịch</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Ngoài ra, còn có các thành phần quý hiếm khác như SÂM TỐ NỮ,
+                                        VITAMIN E, TINH DẦU HOA ANH THẢO giúp tăng cường nội tiết tố, tăng kích thước
+                                        vòng 1</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check color-blue"></i></span>
+                                    <span class="ml-1">Sản phẩm được tách béo hoàn toàn, không gây tăng cân, phù hợp
+                                        dùng mỗi ngày thay thế bữa ăn phụ</span>
+                                </li>
+                            </ul>
+                            <div class="line"></div>
+                            <div class="box-order">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none" viewBox="0 0 24 24" class="animation-shake"
+                                    fill="rgba(58, 145, 207, 1.0)">
+                                    <path
+                                        d="M21,9A1,1 0 0,1 22,10A1,1 0 0,1 21,11H16.53L16.4,12.21L14.2,17.15C14,17.65 13.47,18 12.86,18H8.5C7.7,18 7,17.27 7,16.5V10C7,9.61 7.16,9.26 7.43,9L11.63,4.1L12.4,4.84C12.6,5.03 12.72,5.29 12.72,5.58L12.69,5.8L11,9H21M2,18V10H5V18H2Z">
+                                    </path>
+                                </svg>
+                                <button class="animation-pulse" type="button" data-toggle="modal" data-target="#myModal">Đặt hàng ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chia sẻ của chuyên gia -->
+        <section id="sec_share-expert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-sec text-center">
+                            <span>
+                                Chia sẻ của các chuyên gia
+                            </span>
+                            <p class="line"></p>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="box-video">
+                            <iframe src="https://www.youtube.com/embed/F4qqOadraYE" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h4 class="name-expert text-center">PGS.TS Trần Đình Toán</h4>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="box-video">
+                            <iframe src="https://www.youtube.com/embed/x9eWrFGRpYw" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h4 class="name-expert text-center">TS. Lê Thị Quỳnh Nhi</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec_feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-sec text-center">
+                            <span>
+                                Cảm nhận của khách hàng
+                            </span>
+                            <p class="line"></p>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-9">
+                        <div class="feed-back">
+                            <div class="avatar">
+                                <img src="./images/rw4.png" alt="">
+                            </div>
+                            <div class="comment ml-3">
+                                <p>Chị gửi về quê cho anh trai 3 hộp uống . Anh khen ngon và dễ chịu cho bao tử lắm </p>
+                                <div class="assess">
+                                    <div class="star">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="information">
+                                        <h6 class="name">Chị: Lê Thị Hồng </h6>
+                                        <span class="job"> Nhân viên văn phòng</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed-back">                           
+                            <div class="comment mr-3">
+                                <p>Em mua sản phẩm sữa Coby Milk cho ba má uống . Ba má nói sữa dễ uống mà mới uống có vài hôm thì thấy ngủ ngon hơn, không bị thức giấc nữa.Em cũng giới thiệu sữa Coby Milk cho họ hàng sử dụng , cô chú khen chất lượng tuyệt vời </p>
+                                <div class="assess">
+                                    <div class="star">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="information">
+                                        <h6 class="name">Chị: Vũ Thị Hương 
+                                        </h6>
+                                        <span class="job"> Nhân viên văn phòng</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <img src="./images/rw3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feed-back">
+                            <div class="avatar">
+                                <img src="./images/rw1.png" alt="">
+                            </div>
+                            <div class="comment ml-3">
+                                <p>Em mới uống 3 loại sữa. Còn sữa nghệ thì em gái của em uống. Nó uống được mấy ngày, khen thơm, ngon, dễ uống. Em cũng hỏi khách thì khách nói thơm, ngon dễ uống lắm</p>
+                                <div class="assess">
+                                    <div class="star">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+                                            viewBox="0 0 24 24" fill="rgba(255,193,74,1)">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="information">
+                                        <h6 class="name">Chị: Nhi Nhi </h6>
+                                        <span class="job"> Kinh doanh online</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-sec text-center">
+                            <span>
+                                CHỨNG NHẬN CỦA COBY MILK
+                            </span>
+                            <p class="line"></p>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 my-2">
+                        <div class="image-box">
+                            <img src="./images/cn1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 my-2">
+                        <div class="image-box">
+                            <img src="./images/cn2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 my-2">
+                        <div class="image-box">
+                            <img src="./images/cn3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex justify-content-center align-items-end">
+        <div class="container">
+            <div class="row  justify-content-center align-items-center text-center text-white">
+                <div class="col-md-8 col-12">
+                    <div class="contact">
+                        <h3 class="logo">
+                            Coby Milk
+                        </h3>
+                        <h5><i class="fa-solid fa-house"></i>  Showroom: 83/8 Quốc lộ 13 cũ, Hiệp Bình Phước, Thủ Đức, Hồ Chí Minh.
+                        </h5>
+                        <h6><i class="fa-solid fa-globe"></i>  Website: https://www.cobymilkvietnam.com</h6>
+                        <h6><i class="fa-solid fa-phone"></i>  Hotline: 0981.728.687</h6>
+                        <div class="line"></div>
+                        <p>Copyright 2022 © cobymilkvietnam.com</p>
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="button-contact">
+        <div class="phonring-alo-phone">
+            <div class="bg">
+                <a href="tel:0981728687" rel="nofollow"></a>
+            </div>
+        </div>
+        <div class="phonring-alo-zalo">
+            <a href="https://zalo.me/0981728687" target="_blank" rel="nofollow"></a>
+        </div>
+    </div>
+
+    <!-- form mua hang -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">         
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h3 class="modal-title text-white">Mua Hàng Ngay</h3>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>        
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4 class="animation-flash text-white text-center">Khuyến mãi sắp kết thúc!!!</h4>
+                <div id="time-sale"></div>
+                <form action="" id="order-product">
+                    <input type="text" placeholder="Họ tên" id="name">
+                    <input type="text" placeholder="Số điện thoại" id="phone">
+                    <input type="text" placeholder="Địa chỉ" id="address">
+                    <select name="product"  id="product">
+                        <option value="Chọn sản phẩm">Chọn sản phẩm</option>
+                        <option value="COBY MILK DIECERNA">COBY MILK DIECERNA</option>
+                        <option value="COBY MILK SỮA NGHỆ NANO">COBY MILK SỮA NGHỆ NANO</option>
+                        <option value="COBY MILK SỮA ĐÔNG TRÙNG HẠ THẢO">COBY MILK SỮA ĐÔNG TRÙNG HẠ THẢO</option>
+                        <option value="COBY MILK SỮA HẠT DINH DƯỠNG">COBY MILK SỮA HẠT DINH DƯỠNG</option>
+                        <option value="COBY MILK SỮA COLLAGEN ">COBY MILK SỮA COLLAGEN </option>
+                    </select>
+                    <input type="number" placeholder="Số lượng" id="amount">
+                    <input type="submit" value="Mua ngay" id="submit">
+                </form>
+            </div>       
+            <!-- Modal footer -->         
+          </div>
+        </div>
+      </div>
+    <!--  -->
+    <script src="./asset/js/jquery.slim.min.js"></script>
+    <script src="./asset/js/jquery.min.js"></script>
+    <script src="./asset/js/popper.min.js"></script>
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/js/main.js"></script>
+</body>
+
+</html>
