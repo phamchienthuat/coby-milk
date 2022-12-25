@@ -87,7 +87,6 @@ a:hover{
 }
 .image-left{
      width: 60%;
-    
 }
 .right_1 img{
     width: 60%;
@@ -236,6 +235,7 @@ section{
 #sec_problem .image-box{
     width: 90%;
     height: auto;
+    margin: 0 auto;
 }
 
 /* product */
@@ -567,6 +567,10 @@ div.phonring-alo-zalo {
     section{
         padding: 30px 0;
     }
+    .image-left{
+        width: 100%;
+        object-fit: cover;
+   }
     /* box-icon */
     .shadow-1{
         box-shadow: unset;
