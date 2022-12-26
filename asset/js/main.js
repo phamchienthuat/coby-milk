@@ -61,7 +61,7 @@ $(document).ready(function(){
         var message = `Khách mua hàng: Tên: ${name}       Số điện thoại: ${phone}      Địa chỉ: ${address}   Sản phẩm ${product}     Số lượng ${amount}`;
         $.ajax({
           type: "GET",
-          url: 'https://api.telegram.org/bot5864499658:AAE_0a2FpjXbPOaFsRMZ8szfV63o1MKdO6A/sendMessage?chat_id=-817591137&text=' + message,
+          url: 'https://api.telegram.org/bot5697200995:AAEgmAt7nrtb3AsBI32ru11lFXqasgUjzlM/sendMessage?chat_id=-886611379&text=' + message,
           data: '', // serializes the form's elements.     
             success: function(data)
             {
